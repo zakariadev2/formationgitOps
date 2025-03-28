@@ -1,0 +1,10 @@
+#!/bin/bash
+
+to="zakariaceur@gmail.com"
+subject="Test"
+body="Ceci est un test."
+
+echo "$body" | mail -s "$subject" "$to"
+
+echo "E-mail envoyé!"
+
